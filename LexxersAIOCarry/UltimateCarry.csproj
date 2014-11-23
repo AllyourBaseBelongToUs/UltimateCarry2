@@ -57,31 +57,13 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Activator.cs" />
-    <Compile Include="Ahri.cs" />
-    <Compile Include="Amumu.cs" />
     <Compile Include="AutoBushRevealer.cs" />
-    <Compile Include="AutoUpdater.cs" />
-    <Compile Include="Azir.cs" />
     <Compile Include="BaseUlt.cs" />
-    <Compile Include="Caitlyn.cs" />
     <Compile Include="Champion.cs" />
     <Compile Include="Chat.cs" />
-    <Compile Include="Elise.cs" />
-    <Compile Include="Ezreal.cs" />
-    <Compile Include="Gangplank.cs" />
-    <Compile Include="Gnar.cs" />
     <Compile Include="HtmlColor.cs" />
     <Compile Include="Jax.cs" />
     <Compile Include="Karthus.cs" />
-    <Compile Include="Khazix.cs" />
-    <Compile Include="Lucian.cs" />
-    <Compile Include="Lulu.cs" />
-    <Compile Include="LeeSin.cs" />
-    <Compile Include="MissFortune.cs" />
-    <Compile Include="Morgana.cs" />
-    <Compile Include="Overlay.cs" />
-    <Compile Include="PotionManager.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\Annotations.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -95,17 +77,8 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
       <DependentUpon>Settings.settings</DependentUpon>
     </Compile>
-    <Compile Include="Riven.cs" />
-    <Compile Include="Swain.cs" />
-    <Compile Include="Teemo.cs" />
-    <Compile Include="Thresh.cs" />
     <Compile Include="Helper.cs" />
-    <Compile Include="Tristana.cs" />
-    <Compile Include="TwistedFate.cs" />
-    <Compile Include="Xerath.cs" />
-    <Compile Include="Zed.cs" />
-    <Compile Include="Zyra.cs" />
-  </ItemGroup>
+    </ItemGroup>
   <ItemGroup>
     <Reference Include="clipper_library, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
