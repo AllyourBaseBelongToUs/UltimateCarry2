@@ -62,8 +62,6 @@
     <Compile Include="Champion.cs" />
     <Compile Include="Chat.cs" />
     <Compile Include="HtmlColor.cs" />
-    <Compile Include="Jax.cs" />
-    <Compile Include="Karthus.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\Annotations.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
