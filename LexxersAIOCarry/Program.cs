@@ -11,8 +11,7 @@ namespace UltimateCarry
 
 		public static Champion Champion;
 		public static Menu Menu;
-		public static Orbwalking.Orbwalker Orbwalker;
-		public static Azir.Orbwalking.Orbwalker Azirwalker;
+		
         public static Helper Helper;
 
 		// ReSharper disable once UnusedParameter.Local
@@ -29,23 +28,6 @@ namespace UltimateCarry
 
 			Menu = new Menu("UltimateCarry", "UltimateCarry_" + ObjectManager.Player.ChampionName, true);
 
-			var targetSelectorMenu = new Menu("Target Selector", "TargetSelector");
-			SimpleTs.AddToMenu(targetSelectorMenu);
-			Menu.AddSubMenu(targetSelectorMenu);
-			if (ObjectManager.Player.ChampionName == "Azir")
-			{
-				var orbwalking = Menu.AddSubMenu(new Menu("AzirWalking", "Orbwalking"));
-				Azirwalker = new Azir.Orbwalking.Orbwalker(orbwalking);
-				Menu.Item("FarmDelay").SetValue(new Slider(125, 100, 200));
-			}
-			else
-			{
-				var orbwalking = Menu.AddSubMenu(new Menu("Orbwalking", "Orbwalking"));
-				Orbwalker = new Orbwalking.Orbwalker(orbwalking);
-				Menu.Item("FarmDelay").SetValue(new Slider(0, 0, 200));
-			}
-			var activator = new Activator();
-			var potionManager = new PotionManager();
 			var baseult = new BaseUlt();
 			var bushRevealer = new AutoBushRevealer();
 		//var overlay = new Overlay();
